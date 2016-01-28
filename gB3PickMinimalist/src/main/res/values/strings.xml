@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="hello">Hello World, GB3PickMinimalistActivity!</string>
+	<string name="app_name">Goalbuster</string>
+	<string name="app_descrip">"Live sports betting on English football, for more games see http://contagious-sports.com"</string>
+	<string name="app_credits">"Copyright Contagious Sports.  http://contagious-sports.com"</string>
+	<string name="app_help">"Select an active time slot button to choose a timeslot, and then confirm to place your bet"</string>
+	<string name="app_further_help">"For further help and more games, see http://contagious-sports.com"</string>
+		
+	<string name="template_user_agent">"%%s/%%s (Linux; Android)"</string>
+	
+	<string-array name="month_names">
+		<item>January</item>
+		<item>February</item>
+		<item>March</item>
+		<item>April</item>
+		<item>May</item>
+		<item>June</item>
+		<item>July</item>
+		<item>August</item>
+		<item>September</item>
+		<item>October</item>
+		<item>November</item>
+		<item>December</item>
+	</string-array>
+
+	<string name="keystore_pass">mysecret</string>
+		
+	<string name="gb_match_results">Results</string>
+	<string name="gb_logout">Logout</string>
+	<string name="gb_match_tracker">Tracker</string>
+	<string name="gb_match_bet">Bet</string>
+	<string name="gb_select_match">Select</string>
+	<string name="gb_help">Help</string>
+	<string name="gb_about">About</string>
+	<string name="gb_preferences">Preferences</string>
+	<string name="gb_version_code">2</string>
+	<string name="gb_version_number">0.2.1</string>
+	<string name="gb_version_name">Android SportsBuster/GoalBuster-3Pick</string>
+								
+	<string name="url_gameapi">http://www.mayaswell.com/flash/gbas2r/gb3p.php?</string>
+	<string name="url_wnsapi">http://www.mayaswell.com/flash/gbas2r/gb3p.php?</string>
+<!--<string name="url_gameapi">https://soccer.contagious-sports.com/g?</string>
+	<string name="url_wnsapi">https://soccer.contagious-sports.com/wns?</string>-->
+<!--	<string name="url_gameapi">https://www.goalbuster.co.uk/g?</string> -->
+<!--	<string name="url_wnsapi">https://www.goalbuster.co.uk/wns?</string> -->
+	<string name="url_account"></string>
+	<string name="url_help"></string>
+</resources>

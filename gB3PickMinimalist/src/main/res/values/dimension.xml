@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="resultControlHeight" >35sp</dimen>
+	<dimen name="slotControlHeight" >35sp</dimen>
+	<dimen name="resultsSpinnerDropdownItemHeight" >35sp</dimen>
+	<dimen name="betSlotSpinnerDropdownItemHeight" >35sp</dimen>
+	<dimen name="resultControlButtonMinWidth" >35sp</dimen>
+</resources>

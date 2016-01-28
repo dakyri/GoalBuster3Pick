@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_window_focused="false" android:drawable="@android:color/transparent" />
+	<item android:state_focused="true" android:state_enabled="false" android:state_pressed="true"
+		android:drawable="@drawable/grad_gray_3" />
+	<item android:state_focused="true" android:state_enabled="false"
+		android:drawable="@drawable/grad_gray_3" />
+	<item android:state_focused="true" android:state_pressed="true"
+		android:drawable="@drawable/sb_dd_list_bg_transition" />
+	<item android:state_focused="false" android:state_pressed="true"
+		android:drawable="@drawable/sb_dd_list_bg_transition" />
+	<item android:state_focused="true"
+		android:drawable="@drawable/grad_dk_green_1" />
+    <item android:state_pressed="false" android:state_focused="true"
+    	android:drawable="@drawable/grad_dk_green_1" />
+     <item android:state_pressed="false" android:state_selected="true"
+    	android:drawable="@drawable/grad_gray_2" />
+<!-- this mucks 9 slice if it is an image, but not if it is a gradient -->
+<!--    <item android:state_pressed="false" android:state_checked="true"
+    	android:drawable="@drawable/sb_dd_list_bg_focus" />-->
+	<item android:drawable="@drawable/grad_gray_1" /> 
+</selector>

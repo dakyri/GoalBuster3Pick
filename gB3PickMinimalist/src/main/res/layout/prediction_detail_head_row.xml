@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<TextView
+		style="@style/ContentText"
+		android:id="@+id/tr_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:paddingLeft="2dip"
+		android:paddingRight="2dip"
+		android:text=""
+ 		android:textSize="12dip"
+   	    android:textColor="#9999AA"/>
+	<TextView
+		style="@style/ContentText"
+		android:id="@+id/tr_c1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:paddingLeft="2dip"
+		android:paddingRight="2dip"
+		android:text=""
+ 		android:textSize="12dip"
+   	    android:textColor="#9999AA"/>
+	<TextView
+		style="@style/ContentText"
+		android:id="@+id/tr_c2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:paddingLeft="2dip"
+		android:paddingRight="2dip"
+		android:text=""
+ 		android:textSize="12dip"
+   	    android:textColor="#9999AA"/>
+	<TextView
+		style="@style/ContentText"
+		android:id="@+id/tr_c3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:paddingLeft="2dip"
+		android:paddingRight="2dip"
+		android:text=""
+ 		android:textSize="12dip"
+   	    android:textColor="#9999AA"/>
+</TableRow>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/gb_match_results"
+        android:title="@string/gb_match_results"
+        android:icon="@drawable/app_icon" />
+    <item
+        android:id="@+id/gb_match_tracker"
+        android:title="@string/gb_match_tracker"
+        android:icon="@drawable/app_icon" />
+    <item
+        android:id="@+id/gb_match_bet"
+        android:title="@string/gb_match_bet"
+        android:icon="@drawable/app_icon" />
+    <item
+        android:id="@+id/gb_select_match"
+        android:title="@string/gb_select_match"
+        android:icon="@drawable/app_icon" />
+    <item
+        android:id="@+id/gb_preferences"
+        android:title="@string/gb_preferences"
+        android:icon="@android:drawable/ic_menu_preferences" />
+    <item
+        android:id="@+id/gb_help"
+        android:title="@string/gb_help"
+        android:icon="@android:drawable/ic_menu_help" />
+    <item
+        android:id="@+id/gb_about"
+        android:title="@string/gb_about"
+        android:icon="@android:drawable/ic_menu_info_details" />
+    <item
+        android:id="@+id/gb_logout"
+        android:title="@string/gb_logout"
+        android:icon="@drawable/app_icon" />
+</menu>

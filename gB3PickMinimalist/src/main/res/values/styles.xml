@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+	 Licensed under the Apache License, Version 2.0 (the "License");
+	 you may not use this file except in compliance with the License.
+	 You may obtain a copy of the License at
+
+		  http://www.apache.org/licenses/LICENSE-2.0
+
+	 Unless required by applicable law or agreed to in writing, software
+	 distributed under the License is distributed on an "AS IS" BASIS,
+	 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 See the License for the specific language governing permissions and
+	 limitations under the License.
+-->
+
+<resources>
+
+<!--	 <style name="WidgetBackground">
+		<item name="android:background">@drawable/widget_bg</item>
+	</style> -->
+
+	<style name="notitleWindow">
+		<item name="android:windowNoTitle">true</item>
+	</style>			
+	<style name="BulletPoint">
+		<item name="android:textSize">13sp</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+	<style name="Text" />
+
+	<style name="Text.Loading">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+	<style name="Text.WordTitle">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+	<style name="Text.WordType">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+	<style name="Text.Definition">
+		<item name="android:textSize">13sp</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+
+<!--	 <style name="LookupProgress">
+		<item name="android:indeterminateOnly">true</item>
+		<item name="android:indeterminateDrawable">@drawable/progress_spin</item>
+		<item name="android:indeterminateBehavior">repeat</item>
+		<item name="android:indeterminateDuration">3500</item>
+	</style>--> 
+
+	<style name="ContentText">
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+	</style>
+	<style name="SmallContentText">
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+	</style>
+	<style name="WhiteTitleText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_margin">2dp</item>
+		<item name="android:textSize">18dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">#444444</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">2</item>
+	</style>
+	<style name="LabelText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#2222AA</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_margin">2dp</item>
+		<item name="android:textSize">18dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">#444444</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">2</item>
+	</style>
+	<style name="ButtonText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_margin">2dp</item>
+		<item name="android:textSize">20dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">2</item>
+	</style>
+    <style name="ResultsSpinner">
+    	<item name="android:textAppearance">@style/ResultsSpinnerItemText</item>
+   		<item name="android:background">@drawable/button_sb_blue_spinner</item>
+		<item name="android:layout_margin">2dp</item>
+<!--     	<item name="android:dropDownSelector">#00ff00</item> -->
+<!--     	<item name="android:popupBackground">@drawable/grad_cherry</item> -->
+    </style>
+    <style name="ResultsSpinnerItem">
+    	<item name="android:textAppearance">@style/ResultsSpinnerItemText</item>
+    </style>
+    <style name="ResultsSpinnerItemText">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">15dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">2</item>
+	</style>
+	<style name="ResultsDropDownItem">
+        <item name="android:checkMark">@drawable/sb_dd_list_check</item>
+<!--        <item name="android:background">@drawable/sb_dd_list_bg</item> --> 
+<!--         <item name="android:background">@android:drawable/list_selector_background</item> -->
+        <item name="android:height">12sp</item>
+        <item name="android:minHeight">12sp</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:maxHeight">12sp</item>
+        <item name="android:textAppearance">@style/ResultsDropDownItemText</item>
+<!--    <item name="android:paddingStart">@android:dimen/dropdownitem_text_padding_left</item>
+        <item name="android:paddingEnd">@android:dimen/dropdownitem_text_padding_right</item> -->
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ResultsDropDownItemText">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">10sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="BetSlotSpinner">
+    	<item name="android:textAppearance">@style/BetSlotSpinnerItemText</item>
+   		<item name="android:background">@drawable/button_sb_blue_spinner</item>
+		<item name="android:layout_margin">2dp</item>
+<!--     	<item name="android:dropDownSelector">#00ff00</item> -->
+<!--     	<item name="android:popupBackground">@drawable/grad_cherry</item> -->
+     </style>
+    <style name="BetSlotSpinnerItemText">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">14dp</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">2</item>
+	</style>
+    <style name="BetSlotSpinnerItem">
+        <item name="android:textAppearance">@style/BetSlotSpinnerItemText</item>
+    </style>
+    <style name="BetSlotDropDownItem">
+        <item name="android:checkMark">@drawable/sb_dd_list_check</item>
+        <item name="android:textAppearance">@style/BetSlotDropDownItemText</item>
+<!--    <item name="android:paddingStart">@android:dimen/dropdownitem_text_padding_left</item>
+        <item name="android:paddingEnd">@android:dimen/dropdownitem_text_padding_right</item> -->
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="BetSlotDropDownItemText">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+ <!--
+ 	<style name="Widget.TextView">
+        <item name="android:textSelectHandleLeft">?android:attr/textSelectHandleLeft</item>
+        <item name="android:textSelectHandleRight">?android:attr/textSelectHandleRight</item>
+        <item name="android:textSelectHandle">?android:attr/textSelectHandle</item>
+        <item name="android:textEditPasteWindowLayout">?android:attr/textEditPasteWindowLayout</item>
+        <item name="android:textEditNoPasteWindowLayout">?android:attr/textEditNoPasteWindowLayout</item>
+        <item name="android:textEditSidePasteWindowLayout">?android:attr/textEditSidePasteWindowLayout</item>
+        <item name="android:textEditSideNoPasteWindowLayout">?android:attr/textEditSideNoPasteWindowLayout</item>
+        <item name="android:textEditSuggestionItemLayout">?android:attr/textEditSuggestionItemLayout</item>
+        <item name="android:textCursorDrawable">?android:attr/textCursorDrawable</item>
+    </style>
+        <item name="textSelectHandleLeft">@android:drawable/text_select_handle_left</item>
+        <item name="textSelectHandleRight">@android:drawable/text_select_handle_right</item>
+        <item name="textSelectHandle">@android:drawable/text_select_handle_middle</item>
+        <item name="textSelectHandleWindowStyle">@android:style/Widget.TextSelectHandle</item>
+        <item name="textEditPasteWindowLayout">@android:layout/text_edit_paste_window</item>
+        <item name="textEditNoPasteWindowLayout">@android:layout/text_edit_no_paste_window</item>
+        <item name="textEditSidePasteWindowLayout">@android:layout/text_edit_side_paste_window</item>
+        <item name="textEditSideNoPasteWindowLayout">@android:layout/text_edit_side_no_paste_window</item>
+        <item name="textSuggestionsWindowStyle">@android:style/Widget.TextSuggestionsPopupWindow</item>
+        <item name="textEditSuggestionItemLayout">@android:layout/text_edit_suggestion_item</item>
+        <item name="textCursorDrawable">@null</item>
+-->
+</resources>
